@@ -3,7 +3,7 @@ const number = [3, 4];
 number.push(5, 6);
 number.unshift(1, 2);
 number.splice(2, 0, 'a', 'b');
-console.log(number);
+console.log('number result : '+number);
 // Working with indexes
 const num1 = [1, 2, 3, 1, 4];
 console.log(num1.indexOf(1, 3));
